@@ -1739,18 +1739,7 @@ figcaption {
   text-align: center;
 }
 
-/*.button {
-        background-color: #1c87c9;
-        border: none;
-        color: white;
-        padding: 20px 34px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 4px 2px;
-        cursor: pointer;
-      }*/
+
 
 .center {
   display: flex;
@@ -1927,3 +1916,4 @@ section h1 {
     transform: rotate(-45deg) translate(0, 0);
   }
 }
+

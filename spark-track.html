@@ -191,70 +191,20 @@ style="background-image: url('images/mockuper.jpg');">
                 </div>
 
 
-                      <div class="slideshow-container">
-                        <div class="mySlides">
-                          <img src="images/sb1.png" class="img-fluid">
-                        </div>
+                <div class="slideshow-container">
 
-                        <div class="mySlides">
-                          <img src="images/sb2.jpg" class="img-fluid">
-                        </div>
+                  <p>
+                    <a href="images/sb1.png" data-fancybox="images">      
+                      <img src="images/sb1.png" />
+                    </a>
+                  </p>
 
-                         <div class="mySlides">
-                          <img src="images/sb3.png" class="img-fluid">
-                        </div>
-
-                        <div class="mySlides">
-                          <img src="images/sb4.jpg" class="img-fluid">
-                        </div>
-
-
-
-
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                      </div>
-                      <br>
-
-                      <!-- The dots/circles -->
-                      <div class="container" style="padding-top: 10px">
-                        <div style="text-align:center;">
-                          <span class="dot" onclick="currentSlide(1)"></span>
-                          <span class="dot" onclick="currentSlide(2)"></span>
-                          <span class="dot" onclick="currentSlide(3)"></span>
-                          <span class="dot" onclick="currentSlide(4)"></span><br>
-                          <br></div>
-                          <br></div>
-
-                          <script>
-                            var slideIndex = 1;
-                            showSlides(slideIndex);
-
-                            function plusSlides(n) {
-                              showSlides(slideIndex += n);
-                            }
-
-                            function currentSlide(n) {
-                              showSlides(slideIndex = n);
-                            }
-
-                            function showSlides(n) {
-                              var i;
-                              var slides = document.getElementsByClassName("mySlides");
-                              var dots = document.getElementsByClassName("dot");
-                              if (n > slides.length) {slideIndex = 1}    
-                                if (n < 1) {slideIndex = slides.length}
-                                  for (i = 0; i < slides.length; i++) {
-                                    slides[i].style.display = "none";  
-                                  }
-                                  for (i = 0; i < dots.length; i++) {
-                                    dots[i].className = dots[i].className.replace(" active", "");
-                                  }
-                                  slides[slideIndex-1].style.display = "block";  
-                                  dots[slideIndex-1].className += " active";
-                                }
-                              </script>
+                  <div style="display: none;">
+                    <a href="images/sb2.jpg" data-fancybox="images"></a>
+                    <a href="images/sb3.png" data-fancybox="images"></a>
+                    <a href="images/sb4.jpg" data-fancybox="images"></a>
+                    <br></div>
+                    <br></div>
 
 
                       <div class="container">
@@ -337,14 +287,30 @@ style="background-image: url('images/mockuper.jpg');">
                                 </div><br>
                               </div><br>
 
+                             
+                            
+                              <div class="slideshow-container">
 
-                      
-                        
-                            <a href="images/spark1.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark1.gif" alt="Home Page" class="img-fluid" style="margin-left: 50px" width="198" height="392"></a>
-                            <a href="images/spark2.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark2.gif" alt="Play Page" class="img-fluid" style="margin-left: 50px" width="198" height="392"></a>
-                            <a href="images/spark3.gif"class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark3.gif" alt="Home Page" class="img-fluid" style="margin-left: 50px" width="198" height="392"></a>
-                            <a href="images/spark4.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark4.gif" alt="Home Page" class="img-fluid" style="margin-left: 50px" width="198" height="392"></a>
-                   
+                                <a href="images/spark1.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark1.gif" alt="Home Page" class="img-fluid" width="198" height="392" style="margin: 5px"></a>
+                              </div>
+
+
+
+                              <div class="slideshow-container">
+
+                                <a href="images/spark2.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark2.gif" alt="Play Page" class="img-fluid" width="198" height="392" style="margin: 5px"></a>
+
+                              </div>
+
+                              <div class="slideshow-container">
+                                <a href="images/spark3.gif"class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark3.gif" alt="Home Page" class="img-fluid" width="198" height="392" style="margin:5px"></a>
+                              </div>
+
+                              <div class="slideshow-container">
+                                <a href="images/spark4.gif" class="d-block" data-fancybox="gif" data-width="279" data-height="560"><img src="images/spark4.gif" alt="Home Page" class="img-fluid"  width="198" height="392" style="margin: 5px"></a>
+                              </div>
+
+
 
 
                             <div class="container">
