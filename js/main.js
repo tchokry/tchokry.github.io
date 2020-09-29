@@ -252,14 +252,8 @@ $(function() {
   });
 });
 
-jQuery(document).ready(function ($) {
-    $(".fancyboxTrigger").on("click", function (e) {
-        e.preventDefault(); // prevents to follow the link of first image
-        $(".fancybox-thumbs").fancybox({
-            // fancybox API options
-        }).eq(0).trigger("click");
-    })
-}); // ready
+
+
 
 
 })(jQuery);

@@ -1920,3 +1920,15 @@ section h1 {
 html {
   scroll-behavior: smooth;
 }
+
+
+.text-block {
+  position:absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
