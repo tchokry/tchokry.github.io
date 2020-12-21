@@ -85,19 +85,21 @@ style="background-image: url('images/mockuper3.jpg');">
   <div class="row slider-text align-items-center justify-content-center text-center">
     <div class="col-lg-12 col-sm-12">
       <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Intuit Design Sprint</h1>
-      <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span>Intuit Design Sprint</p><br>
-                  <br><a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
-
+      <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span>Intuit Design Sprint</p>
     </div>
   </div>
 </div>
 </div>
 
+<section id="section04" class="demo">
+  <a href="#Intuit"><span></span></a>
+</section>
+
 <div class="section" style="padding-bottom: 0px">
-  <div class="container" style="padding: 0px">
-    <div class="row mb-5" style="padding: 0px">
+  <div class="container">
+    <div class="row mb-5">
       <div class="col-lg-7">
-        <a href="images/intuit.jpg" class="d-block" data-fancybox="gal"><img src="images/intuit.jpg" alt="Image" class="img-fluid"></a>
+        <a href="images/intuit.jpg" class="d-block" data-fancybox="gal" id="Intuit"><img src="images/intuit.jpg" alt="Image" class="img-fluid"></a>
       </div>
       <div class="col-lg-5 ml-auto">
         <ul class="list-unstyled mb-5">
@@ -155,9 +157,19 @@ style="background-image: url('images/mockuper3.jpg');">
                 </div><br>
               </div>
 
-                <a href="images/brain1.jpg" class="mb-3 d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain1.jpg" alt="Image" class="img-fluid" style="margin-left: 50px" style="margin: 10px" width="320px" height="427px"></a>
-                <a href="images/brain2.jpg" class="mb-3 d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain2.jpg" alt="Image" class="img-fluid" style="margin-left: 50px" width="320px" height="427px"></a>
-                <a href="images/brain3.jpg" class="d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain3.jpg" alt="Image" class="img-fluid" style="margin-left: 50px" width="320px" height="427px"></a><br>
+              <div class="slideshow-container">
+
+                <a href="images/brain1.jpg" class="mb-3 d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain1.jpg" alt="Image" class="img-fluid" width="320px" height="427px"></a>
+
+              </div>
+
+              <div class="slideshow-container">
+                <a href="images/brain2.jpg" class="mb-3 d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain2.jpg" alt="Image" class="img-fluid" width="320px" height="427px"></a>
+              </div>
+
+              <div class="slideshow-container">
+                <a href="images/brain3.jpg" class="mb-3 d-block" data-fancybox="images" data-width="1200" data-height="1600"><img src="images/brain3.jpg" alt="Image" class="img-fluid" width="320px" height="427px"></a>
+              </div>
 
 
                 <div class="container"><br>
@@ -200,67 +212,25 @@ style="background-image: url('images/mockuper3.jpg');">
                         </div>
                       </div>
 
+
                       <div class="slideshow-container">
-                        <figure>
-                        <div class="mySlides">
-                          <img src="images/paper1.jpg" class="img-fluid"><figcaption>Overall Design Layout</figcaption>
-                        </div>
+                        <div class="col-lg-12">
 
-                        <div class="mySlides">
-                          <img src="images/paper2.jpg" class="img-fluid"><figcaption>CPA's Biography Prototype</figcaption>
-                        </div>
+                      
+                          <a href="images/paper1.jpg" class="mb-3 d-block" data-fancybox="paper" data-caption="Overall Design Layout" data-width="600" data-height="450">      
+                            <img class="img-fluid" src="images/paper1.jpg" width="450" height="338">
+                          </a>
+                          <div class="text-block" style="background-color: black">
+                            <h2 style="color: white"> +3 </h2>
+                          </div>
+                        
 
-                        <div class="mySlides">
-                          <img src="images/paper3.jpg" class="img-fluid"><figcaption>Pop-Up Chat Prototype</figcaption>
-                        </div>
-                      </figure>
-
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                      </div>
-                      <br>
-
-                      <!-- The dots/circles -->
-                      <div class="container" style="padding-top: 10px">
-                        <div style="text-align:center;">
-                          <span class="dot" onclick="currentSlide(1)"></span>
-                          <span class="dot" onclick="currentSlide(2)"></span>
-                          <span class="dot" onclick="currentSlide(3)"></span>
+                        <div style="display: none;">
+                          <a href="images/paper2.jpg" data-fancybox="paper" data-caption="CPA's Biography Prototype" data-width="600" data-height="450"></a>
+                          <a href="images/paper3.jpg" data-fancybox="paper" data-caption="Pop-Up Chat Prototype" data-width="600" data-height="450"></a>
                           <br></div>
                           <br></div>
-
-                          <script>
-                            var slideIndex = 1;
-                            showSlides(slideIndex);
-
-                            function plusSlides(n) {
-                              showSlides(slideIndex += n);
-                            }
-
-                            function currentSlide(n) {
-                              showSlides(slideIndex = n);
-                            }
-
-                            function showSlides(n) {
-                              var i;
-                              var slides = document.getElementsByClassName("mySlides");
-                              var dots = document.getElementsByClassName("dot");
-                              if (n > slides.length) {slideIndex = 1}    
-                                if (n < 1) {slideIndex = slides.length}
-                                  for (i = 0; i < slides.length; i++) {
-                                    slides[i].style.display = "none";  
-                                  }
-                                  for (i = 0; i < dots.length; i++) {
-                                    dots[i].className = dots[i].className.replace(" active", "");
-                                  }
-                                  slides[slideIndex-1].style.display = "block";  
-                                  dots[slideIndex-1].className += " active";
-                                }
-                              </script>
-
-                    
-
+                        </div>
                               <div class="container">
                                 <div class="col-lg-12">
                                   <h3>Takeaways</h3>
